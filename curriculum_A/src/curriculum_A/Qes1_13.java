@@ -18,15 +18,15 @@ public class Qes1_13 {
 		
 		//2
 		//初期値の代入
-		qesbyte = 8;
-		qesshort = 16;
+		qesbyte = 0;
+		qesshort = 0;
 		qesint = 0;
-		qeslong = 100;
-		qesfloat = 1.5f;
-		qesdouble = 5.5;
-		qeschar = 'A';
-		qesstring = "ABC";
-		qesboolean = true;
+		qeslong = 0L;
+		qesfloat = 0.0f;
+		qesdouble = 0.0;
+		qeschar = '\u0000';
+		qesstring = "null";
+		qesboolean = false;
 		
 		//3
 		//代入
@@ -158,7 +158,20 @@ public class Qes1_13 {
 		//年齢が25以上もしくは身長が160以上の場合true
 		boolean result2 = (age >= 25 || height >= 160 );
 		
+		//コンソール出力
 		System.out.println(result2);
+		
+
+		float ans = 7 / 6;
+		System.out.println(ans);
+		
+		
+		
+		int a = 10;
+		int b = 10;
+		
+		System.out.println(++a + 50);
+		System.out.println(b++ + 50);
 	}
 
 }
