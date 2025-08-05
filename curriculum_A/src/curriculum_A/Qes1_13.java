@@ -25,7 +25,7 @@ public class Qes1_13 {
 		qesfloat = 0.0f;
 		qesdouble = 0.0;
 		qeschar = '\u0000';
-		qesstring = "null";
+		qesstring = null;
 		qesboolean = false;
 		
 		//3
