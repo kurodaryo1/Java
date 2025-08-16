@@ -10,12 +10,12 @@ public class Qes1_3 {
 		
 		
 		
-		
+		//ユーザー名を入力する
 		Scanner scanner = new Scanner(System.in);
 	        
 	       String userName = scanner.nextLine();
 	        
-	        //ユーザー名を入力する
+	        
 	        //入力された文字数による処理
 	    	do
 	    		
